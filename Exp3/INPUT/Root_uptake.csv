@@ -1,0 +1,17 @@
+Parameters,Values,Unit
+t_Seedling,0,day
+t1,60,day
+t2,150,day
+t3,300,day
+t4,365,day
+Kc_init,0.1,-
+Kc_mid,0.1,-
+Kc_end,0.1,-
+LRoot_0,20,cm
+LRoot_max,20,cm
+LAI_max,2.2,-
+K_canopy,0.6,-
+h1,-10,cm
+h2,-25,cm
+h3,-650,cm
+h4,-80000,cm

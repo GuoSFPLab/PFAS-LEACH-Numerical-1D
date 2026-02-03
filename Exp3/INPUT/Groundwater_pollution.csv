@@ -1,0 +1,4 @@
+Parameters,Values,Unit
+Groundwater_Darcy_flux,50,cm/day
+Lateral_plume_length,10000,cm
+Thickness_of_saturated_zone,500,cm

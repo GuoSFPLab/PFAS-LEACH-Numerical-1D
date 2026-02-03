@@ -1,0 +1,15 @@
+Parameter,Value,Unit
+Molecular_weight,414.07,g/mol
+a,62.1105,mg/L
+b,0.19,-
+Chi,1,-
+sigma0,72,dyn/cm
+Dm,0.42336,cm2/d
+Fs,0.4,-
+alpha_s,0.001805556,1/d
+Faw,0.9,-
+alpha_aw,0.0015,1/d
+Aaw_SF,1,-
+Aaw_LookUpTable,T,True/False
+PFAS_release_depth,1,-
+First_order_decay,0,1/d
