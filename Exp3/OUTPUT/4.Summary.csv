@@ -1,0 +1,11 @@
+Total days,       7300.00, day
+Length of 1D domain,        400.00, cm
+Number of numerical cells,   40, -
+CPU COST = ,               4.281, seconds
+        or ,             0.07135, minutes
+        or ,           0.0011892, hours
+Average recharge,           0.04, cm/day
+Lateral groundwater flux,          50.00, cm/day
+Lateral plume length,       10000.00, cm
+Mixing zone thickness,        1065.70, cm
+Groundwater dilution factor (DF),         143.96, -
