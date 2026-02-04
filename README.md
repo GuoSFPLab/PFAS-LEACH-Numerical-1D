@@ -1,12 +1,14 @@
 # PFAS-LEACH-Numerical-1D (Tier 2: A Numerical 1D Model)
 
-This repository contains **PFAS-LEACH-Numerical-1D**, a one-dimensional (vertical) numerical model for simulating coupled water flow and PFAS transport/retention in the vadose zone. It is designed for **site-scale screening and scenario evaluation** where 1D leaching is an appropriate approximation.
+This repository contains **PFAS-LEACH-Numerical-1D**, a one-dimensional (vertical) numerical model for simulating coupled water flow and PFAS transport/retention in the vadose zone. It is designed for **scenario evaluation** where 1D leaching is an appropriate approximation.
 
-PFAS-LEACH is a tiered decision support platform for predicting PFAS leaching in source zones. PFAS-LEACH-Numerical-1D corresponds to a **Tier 2-style 1D model**, and complements other tiers/models (e.g., analytical or dilution-factor screening tools, and more comprehensive multidimensional models).
+PFAS-LEACH is a tiered decision support platform for predicting PFAS leaching in source zones. PFAS-LEACH-Numerical-1D corresponds to a **Tier 2-style 1D model**, and complements other tiers/models (e.g., analytical or dilution-factor screening tools (Tier 3 and 4), and more comprehensive multidimensional models (Tier 1)).
 
 ## Features (Numerical-1D)
 
-- **1D variably saturated flow** in the vertical direction (vadose zone).
+- **1D variably saturated flow** in the vertical direction.
+  - Hetergeneous subsurface (layered).
+  - Surfactant-induced flow.
 - **PFAS transport** with advection and dispersion.
 - **Retention processes** represented through:
   - solid-phase adsorption (including kinetic sites if enabled),
@@ -14,7 +16,7 @@ PFAS-LEACH is a tiered decision support platform for predicting PFAS leaching in
   - optional first-order decay (if enabled in inputs).
 - **Optional modules**
   - root-water uptake / evapotranspiration handling,
-  - groundwater dilution-factor postprocessing (screening-style metric).
+  - groundwater dilution-factor postprocessing.
 - **Outputs**
   - time series of key variables and mass balance terms,
   - profile snapshots of state variables versus depth,
@@ -49,7 +51,7 @@ This package is publicized on GitHub. You can obtain it either by cloning the re
 
 The model executable is expected at:
 
-- `bin/ESTCP_2025.exe`
+- `bin/ESTCP-PFAS-LEACH-Tier-2.exe`
 
 A typical **case folder** is created **parallel to** `bin/`, for example:
 
@@ -76,7 +78,7 @@ An example case is provided in `Test_case/` (including example inputs/outputs an
    - This writes all required files into `MyCase/INPUT/`.
 5. **Run the model**:
    - Double-click `MyCase/Run.bat`
-   - This runs `..\bin\ESTCP_2025.exe` with the case folder as the working directory.
+   - This runs `..\bin\ESTCP-PFAS-LEACH-Tier-2.exe` with the case folder as the working directory.
 6. **Plot results**:
    - Run `python plot_figures.py`
    - This generates PDF figures in `MyCase/FIGURES/`.
@@ -101,7 +103,7 @@ Common outputs include:
 - `1.Profile-Time-*.csv` (profiles versus depth at requested times)
 - `2.Time series.csv` (domain-integrated and boundary time series)
 - `3.Observations.csv` (high-frequency output at selected cells)
-- `4.Summary.csv` (run summary including CPU time and screening metrics if enabled)
+- `4.Summary.csv` (run summary including CPU time and groundwater pollution metrics if enabled)
 
 ## Visualization
 
