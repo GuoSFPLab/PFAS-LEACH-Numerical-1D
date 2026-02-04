@@ -2,7 +2,7 @@
 
 This repository contains **PFAS-LEACH-Numerical-1D**, a one-dimensional (vertical) numerical model for simulating coupled water flow and PFAS transport/retention in the vadose zone. It is designed for **scenario evaluation** where 1D leaching is an appropriate approximation.
 
-PFAS-LEACH is a tiered decision support platform for predicting PFAS leaching in source zones. PFAS-LEACH-Numerical-1D corresponds to a **Tier 2-style 1D model**, and complements other tiers/models (e.g., analytical or dilution-factor screening tools (Tier 3 and 4), and more comprehensive multidimensional models (Tier 1)).
+PFAS-LEACH is a tiered decision support platform for predicting PFAS leaching in source zones. PFAS-LEACH-Numerical-1D corresponds to a **Tier 2-style 1D model**, and complements other tiers/models (e.g., analytical or dilution-factor screening tools (Tier 3 and Tier 4), and more comprehensive multidimensional models (Tier 1)).
 
 ## Features (Numerical-1D)
 
