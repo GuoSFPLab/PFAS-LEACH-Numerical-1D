@@ -114,6 +114,13 @@ Python dependencies:
 If needed, install dependencies (example):
 - `pip install pandas matplotlib`
 
+## Version Histroy
+
+- **Beta version** - Initial Release for testing
+  - Jan 13, 2026: Data visualization using a Python script.
+  - Jan 31, 2026: Computational cost optimized.
+
+
 ## Acknowledgements
 
 The PFAS-LEACH Tier 2 model (PFAS-LEACH-Numerical-1D) was developed from scratch at the University of Arizona by Jicai Zeng and Bo Guo. The development of this model was supported by the Environmental Security Technology Certification Program (ESTCP) under Project ER21-5041.
