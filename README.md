@@ -75,7 +75,7 @@ Three example cases are provided in `Exp1/`,  `Exp2/`, and  `Exp3/` (including e
 3. **Edit inputs** by editing the CSV files in `MyCase/INPUT/`.
 4. **Run the model**:
    - Double-click `MyCase/Run.bat`
-   - This runs `..\bin\ESTCP-PFAS-LEACH-Tier-2.exe` with the case folder as the working directory.
+   - This runs `../bin/ESTCP-PFAS-LEACH-Tier-2.exe` with the case folder as the working directory.
 6. **Plot results**:
    - Run `plot_outputs.py`,
    - This generates PDF figures in `MyCase/FIGURES/`.
