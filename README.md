@@ -30,7 +30,7 @@ This package is publicized on GitHub. You can obtain it either by cloning the re
 
 1. Install Git (if you do not already have it):
    - Windows: install Git for Windows.
-2. Open a terminal (PowerShell on Windows).
+2. Open a terminal (Git Bash or PowerShell on Windows).
 3. Choose a local folder where you want to store the model package and navigate there, e.g.:
    - `cd D:\Models`
 4. On the GitHub repository page, click **Code** and copy the HTTPS clone URL.
