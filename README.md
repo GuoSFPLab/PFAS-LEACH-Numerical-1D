@@ -58,9 +58,9 @@ A typical **case folder** is created **parallel to** `bin/`, for example:
 - `MyCase/`
   - `INPUT/`
   - `OUTPUT/` (written by the executable)
-  - `FIGURES/` (written by `plot_figures.py`)
+  - `FIGURES/` (written by `plot_outputs.py`)
   - `Run.bat` (user double-clicks to run the model)
-  - `plot_figures.py` (user runs to visualize results)
+  - `plot_outputs.py` (user runs to visualize results)
 
 Three example cases are provided in `Exp1/`,  `Exp2/`, and  `Exp3/` (including example inputs/outputs).
 
@@ -71,13 +71,13 @@ Three example cases are provided in `Exp1/`,  `Exp2/`, and  `Exp3/` (including e
    - Copy `Test_case/Run.bat` to `MyCase/Run.bat`.
    - Copy `Test_case/INPUT/` to `MyCase/INPUT/`.
    - Copy `Test_case/OUTPUT/` to `MyCase/OUTPUT/`.
-   - Copy `Test_case/plot_figures.py` to `MyCase/plot_figures.py`.
+   - Copy `Test_case/plot_outputs.py` to `MyCase/plot_outputs.py`.
 3. **Edit inputs** by editing the CSV files in `MyCase/INPUT/`.
 4. **Run the model**:
    - Double-click `MyCase/Run.bat`
    - This runs `..\bin\ESTCP-PFAS-LEACH-Tier-2.exe` with the case folder as the working directory.
 6. **Plot results**:
-   - Run `plot_figures.py`,
+   - Run `plot_outputs.py`,
    - This generates PDF figures in `MyCase/FIGURES/`.
 
 ## Input Files (csv files in INPUT/)
@@ -104,7 +104,7 @@ Common outputs include:
 
 ## Visualization
 
-The provided plotting script (`plot_figures.py`) reads the model outputs and writes PDFs to `FIGURES/`.
+The provided plotting script (`plot_outputs.py`) reads the model outputs and writes PDFs to `FIGURES/`.
 
 Python dependencies:
 - `pandas`
