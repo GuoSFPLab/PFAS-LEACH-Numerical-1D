@@ -51,7 +51,7 @@ This package is publicized on GitHub. You can obtain it either by cloning the re
 
 The model executable is expected at:
 
-- `bin/ESTCP-PFAS-LEACH-Tier-2.exe`
+- `bin/ESTCP-PFAS-LEACH-Numerical-1D.exe`
 
 A typical **case folder** is created **parallel to** `bin/`, for example:
 
@@ -75,7 +75,7 @@ Three example cases are provided in `Exp1/`,  `Exp2/`, and  `Exp3/` (including e
 3. **Edit inputs** by editing the CSV files in `MyCase/INPUT/`.
 4. **Run the model**:
    - Double-click `MyCase/Run.bat`
-   - This runs `../bin/ESTCP-PFAS-LEACH-Tier-2.exe` with the case folder as the working directory.
+   - This runs `../bin/ESTCP-PFAS-LEACH-Numerical-1D.exe` with the case folder as the working directory.
 6. **Plot results**:
    - Run `plot_outputs.py`,
    - This generates PDF figures in `MyCase/FIGURES/`.
@@ -122,7 +122,7 @@ If needed, install dependencies (example):
 
 ## Acknowledgements
 
-The PFAS-LEACH Tier 2 model (PFAS-LEACH-Numerical-1D) was developed from scratch at the University of Arizona by Jicai Zeng and Bo Guo. The development of this model was supported by the Environmental Security Technology Certification Program (ESTCP) under Project ER21-5041.
+The PFAS-LEACH-Numerical-1D (PFAS-LEACH Tier 2) model was developed from scratch at the University of Arizona by Jicai Zeng and Bo Guo. The development of this model was supported by the Environmental Security Technology Certification Program (ESTCP) under Project ER21-5041.
 
 We thank Dr. Mark L. Brusseau for helpful discussions related to the parameterization of the model as well as model validation by unsaturated miscible-displacement experiments. We also acknowledge constructive feedback from the community during the course of model development. The views, opinions, and findings expressed in this document are those of the authors and do not necessarily reflect the official policies or positions of the U.S. Department of Defense or other sponsoring agencies.
 
@@ -136,7 +136,7 @@ The Tier 2 PFAS-LEACH-Numerical-1D model was developed based on the modeling fra
 
 ## License
 
-This project is licensed under the [CC BY-ND 4.0 License](https://github.com/GuoSFPLab/PFAS-LEACH-Tier-3-4/blob/main/LICENSE).
+This project is licensed under the [CC BY-ND 4.0 License](https://github.com/GuoSFPLab/PFAS-LEACH-Numerical-1D/blob/main/LICENSE).
 
 ## Contact
 
