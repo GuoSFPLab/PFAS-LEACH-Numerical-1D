@@ -1,4 +1,5 @@
 @echo off
-"../bin/ESTCP-PFAS-LEACH-Tier-2.exe"
+"../bin/ESTCP-PFAS-LEACH-Numerical-1D.exe"
 
 pause
+
