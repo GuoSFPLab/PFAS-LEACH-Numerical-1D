@@ -1,0 +1,17 @@
+Parameters,Values,Unit
+tEnd,7300,day
+dt0,1.00E-08,day
+dtMin,1.00E-15,day
+dtMax,1.00E+00,day
+Surfactant_induced_flow,T,True/False
+Root_uptake_on,T,T/F
+hA,-1.00E+03,cm
+dt_Increase,1.5,-
+dt_Reduce,0.5,-
+N_Iter_L,20,-
+N_Iter_H,35,-
+Max_N_Iter,50,-
+Tol_th,1.00E-08,cm^3/cm^3
+Tol_h,1.00E-08,cm
+Tol_C,1.00E-10,mg/cm^3
+GW_dilution_on,T,T/F
