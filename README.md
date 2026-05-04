@@ -144,7 +144,34 @@ pip install pandas matplotlib
 - The same three example cases are provided for all supported operating systems.
 - The main platform-specific differences are the executable file and launcher script.
 
-## 9) License and contact
+
+## 9) Revision history
+
+### 2026-04-23
+
+- Clarified the time-stamp convention used for `Boundary_conditions.csv`:
+  - each row is interpreted as applying to the interval ending at the listed time;
+  - row 1 applies over `0 < t <= t1`;
+  - row `i` applies over `t(i-1) < t <= t(i)`;
+  - after the last listed time, the final boundary-condition row remains in effect.
+- Updated the User Guide with a dedicated clarification of this trailing, interval-based boundary-condition convention.
+- Corrected a minor implementation issue in boundary-condition timing so that row application is consistent with the intended convention.
+- Updated the software package with the corrected boundary-condition handling.
+
+### 2026-05-04
+
+- Updated the User Guide with additional practical guidance for:
+  - selecting `Chi` for ionic PFAS under natural soil-water or low-ionic-strength conditions;
+  - selecting and interpreting `Aaw_SF` for air-water interfacial area scaling;
+  - interpreting solver status output and common convergence messages;
+  - handling output files and plotting results after failed or incomplete runs.
+- Updated example-package documentation to clarify:
+  - platform-specific binary package structure;
+  - standard input/output folder layout;
+  - Python plotting dependencies;
+  - common troubleshooting steps for Linux/macOS permissions, macOS architecture mismatch, and missing Python packages.
+
+## 10) License and contact
 
 - License: `LICENSE` (CC BY-ND 4.0)
 - Contact: `boguo@arizona.edu`
