@@ -13,3 +13,5 @@ Aaw_SF,1,-
 Aaw_LookUpTable,T,True/False
 PFAS_release_depth,1,-
 First_order_decay,0,1/d
+Kaw_fixed,F,True/False
+Kaw_value,0,cm3/cm2
