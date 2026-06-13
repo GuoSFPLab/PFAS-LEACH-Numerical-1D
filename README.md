@@ -106,6 +106,13 @@ Main input files in `INPUT/`:
 - `Output_ctrl.csv`
 - optional: `Root_uptake.csv`, `Groundwater_pollution.csv`
 
+`PFAS_properties.csv` includes optional fixed-Kaw controls. Use `Kaw_fixed = F`
+for the default concentration-dependent Kaw calculation, or set
+`Kaw_fixed = T` with a nonnegative `Kaw_value` in cm3/cm2 to use a constant
+air-water interfacial adsorption coefficient. The `Kaw_value` unit is written
+as cm3/cm2 (volume per air-water interfacial area), which is dimensionally
+equivalent to cm.
+
 Main output files in `OUTPUT/`:
 
 - `1.Profile-Time-*.csv`
@@ -170,6 +177,16 @@ pip install pandas matplotlib
   - standard input/output folder layout;
   - Python plotting dependencies;
   - common troubleshooting steps for Linux/macOS permissions, macOS architecture mismatch, and missing Python packages.
+
+### 2026-06-12
+
+- Added optional fixed-Kaw input controls to `INPUT/PFAS_properties.csv`:
+  - `Kaw_fixed = F` keeps the default concentration-dependent Kaw calculation;
+  - `Kaw_fixed = T` uses the user-specified nonnegative `Kaw_value`;
+  - `Kaw_value` is specified in cm3/cm2, representing volume per air-water interfacial area.
+- Updated the User Guide to document the fixed-Kaw option, input fields, and units.
+- Updated all example input files in the Windows, Linux, macOS arm64, and macOS x86_64 packages with the new fixed-Kaw input rows.
+- Updated README documentation to describe the fixed-Kaw option, input fields, and units.
 
 ## 10) License and contact
 
