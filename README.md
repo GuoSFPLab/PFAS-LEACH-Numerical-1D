@@ -190,5 +190,5 @@ pip install pandas matplotlib
 
 ## 10) License and contact
 
-- License: `LICENSE` (CC BY-ND 4.0)
+- This software is distributed under the ESTCP-PFAS-LEACH-Numerical-1D Free Binary Use License. See LICENSE for details.
 - Contact: `boguo@arizona.edu`
