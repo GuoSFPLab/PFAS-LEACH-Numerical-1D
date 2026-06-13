@@ -1,6 +1,6 @@
 Total days,          5.00, day
 Length of 1D domain,         10.00, cm
 Number of numerical cells,   20, -
-CPU COST = ,               0.034, seconds
-        or ,             0.00057, minutes
-        or ,           0.0000095, hours
+CPU COST = ,               0.032, seconds
+        or ,             0.00054, minutes
+        or ,           0.0000090, hours
