@@ -1,8 +1,12 @@
 ESTCP-PFAS-LEACH-Numerical-1D
 Free Binary Use License
 
-Copyright (c) 2026 Subsurface Flow Physics Lab @UArizona.
+Copyright (c) 2026 PFAS-LEACH Development Team.
 All rights reserved.
+
+Developed originally at the University of Arizona.
+
+The official software name is ESTCP-PFAS-LEACH-Numerical-1D.
 
 1. Software Covered
 
@@ -15,7 +19,7 @@ The official software name is ESTCP-PFAS-LEACH-Numerical-1D.
 
 2. Free Use Permission
 
-Subsurface Flow Physics Lab @UArizona grants users a free, non-exclusive,
+The PFAS-LEACH Development Team grants users a free, non-exclusive,
 non-transferable, revocable license to download, install, and use
 ESTCP-PFAS-LEACH-Numerical-1D for research, education, site evaluation,
 technical analysis, and other internal professional uses.
@@ -36,7 +40,7 @@ notices included with the package.
 
 4. Restrictions
 
-Without prior written permission from Subsurface Flow Physics Lab @UArizona, users may not:
+Without prior written permission from PFAS-LEACH Development Team, users may not:
 
 - modify, adapt, translate, or create derivative versions of the software package;
 - reverse engineer, decompile, disassemble, or attempt to derive internal
@@ -46,8 +50,8 @@ Without prior written permission from Subsurface Flow Physics Lab @UArizona, use
   example packages, documentation, plotting scripts, or executable files;
 - sell, sublicense, rent, lease, or commercially host the software as a
   standalone product or service;
-- use the names ESTCP-PFAS-LEACH-Numerical-1D, PFAS-LEACH, Subsurface Flow
-  Physics Lab @UArizona, or the names of the developers to imply endorsement of any product,
+- use the names ESTCP-PFAS-LEACH-Numerical-1D, PFAS-LEACH, PFAS-LEACH Development 
+  Team, or the names of the developers to imply endorsement of any product,
   service, modified package, or interpretation of model results.
 
 5. Documentation
@@ -76,7 +80,7 @@ any kind, express or implied, including but not limited to warranties of
 merchantability, fitness for a particular purpose, accuracy, completeness,
 non-infringement, or suitability for regulatory decision-making.
 
-The developers, Subsurface Flow Physics Lab @UArizona, and project sponsors do not
+The developers, PFAS-LEACH Development Team, and project sponsors do not
 guarantee that the software will be error-free, uninterrupted, or applicable
 to any specific site, contaminant release scenario, regulatory framework,
 or decision context.
@@ -94,7 +98,7 @@ Users are solely responsible for:
 
 9. Limitation of Liability
 
-To the maximum extent permitted by applicable law, Subsurface Flow Physics Lab @UArizona,
+To the maximum extent permitted by applicable law, PFAS-LEACH Development Team,
 the developers, contributors, and project sponsors shall not be liable for
 any direct, indirect, incidental, consequential, special, exemplary, or
 punitive damages arising from use of, inability to use, or reliance on the
@@ -109,9 +113,13 @@ rights in third-party software.
 
 11. Contact
 
-For questions about licensing, redistribution, or permission to use the
-software outside the terms stated above, contact:
+For questions regarding licensing, redistribution, collaboration,
+or software development, contact:
 
 Bo Guo, Ph.D.
-Subsurface Flow Physics Lab @UArizona
+PFAS-LEACH Development Team
 boguo@arizona.edu
+
+Software website and future releases may be maintained by successor
+institutions or collaborating organizations designated by the
+development team.
