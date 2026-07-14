@@ -188,6 +188,11 @@ pip install pandas matplotlib
 - Updated all example input files in the Windows, Linux, macOS arm64, and macOS x86_64 packages with the new fixed-Kaw input rows.
 - Updated README documentation to describe the fixed-Kaw option, input fields, and units.
 
+### 2026-07-14
+
+- Minor corrections to the method to calculate Aaw;
+- Improved accuracy and efficiency of the Aaw-theta Table.
+
 ## 10) License and contact
 
 - This software is distributed under the ESTCP-PFAS-LEACH-Numerical-1D Free Binary Use License. See LICENSE for details.
