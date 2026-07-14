@@ -1,9 +1,9 @@
 Total days,       7300.00, day
 Length of 1D domain,        400.00, cm
 Number of numerical cells,   40, -
-CPU COST = ,               4.906, seconds
-        or ,             0.08177, minutes
-        or ,           0.0013628, hours
+CPU COST = ,               4.141, seconds
+        or ,             0.06901, minutes
+        or ,           0.0011502, hours
 Average recharge,           0.04, cm/day
 Lateral groundwater flux,          50.00, cm/day
 Lateral plume length,       10000.00, cm
